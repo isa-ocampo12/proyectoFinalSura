@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+h1 {
+    text-align: center;
+    color: black; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dfe6ed;
+
+}
+th {
+    background-color: #0072c6; 
+    color: white;
+    font-weight: bold;
+
+}
+tr:nth-child(even) {
+    background-color: #e6f3ff; 
+}
+tr:hover {
+    background-color: #d0e4f7;  
+}
+.editar{
+    background-color: rgb(49, 209, 49);
+}
+.eliminar{
+    background-color: rgb(236, 52, 52);
+}
+.editar:hover{
+    background-color: rgb(22, 199, 37);
+}
+.eliminar:hover{
+    background-color: red;
+}
+.editar .eliminar{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
